@@ -24,15 +24,15 @@ import (
 	"testing"
 	"text/template"
 
-	"k8s.io/gengo/args"
-	"k8s.io/gengo/namer"
-	"k8s.io/gengo/parser"
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/args"
+	"github.com/liues1992/gengo/namer"
+	"github.com/liues1992/gengo/parser"
+	"github.com/liues1992/gengo/types"
 )
 
 func TestRecursive(t *testing.T) {
 	d := args.Default()
-	d.InputDirs = []string{"k8s.io/gengo/testdata/a/..."}
+	d.InputDirs = []string{"github.com/liues1992/gengo/testdata/a/..."}
 	b, err := d.NewBuilder()
 	if err != nil {
 		t.Fatalf("Fail making builder: %v", err)
@@ -44,7 +44,7 @@ func TestRecursive(t *testing.T) {
 	foundB := false
 	for _, p := range b.FindPackages() {
 		t.Logf("Package: %v", p)
-		if p == "k8s.io/gengo/testdata/a/b" {
+		if p == "github.com/liues1992/gengo/testdata/a/b" {
 			foundB = true
 		}
 	}

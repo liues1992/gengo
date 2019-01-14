@@ -27,8 +27,8 @@ package main
 import (
 	"os"
 
-	"k8s.io/gengo/args"
-	"k8s.io/gengo/examples/set-gen/generators"
+	"github.com/liues1992/gengo/args"
+	"github.com/liues1992/gengo/examples/set-gen/generators"
 
 	"k8s.io/klog"
 )

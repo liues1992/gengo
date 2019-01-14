@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 const (

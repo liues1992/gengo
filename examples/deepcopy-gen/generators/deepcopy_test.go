@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 func Test_isRootedUnder(t *testing.T) {

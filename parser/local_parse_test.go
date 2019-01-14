@@ -31,7 +31,7 @@ func TestImportBuildPackage(t *testing.T) {
 
 	if len(b.buildPackages) > 1 {
 		// this would happen if the canonicalization failed to normalize the path
-		// you'd get a k8s.io/gengo/vendor/fake/dep key too
+		// you'd get a github.com/liues1992/gengo/vendor/fake/dep key too
 		t.Errorf("missing one, but got %v", b.buildPackages)
 	}
 }

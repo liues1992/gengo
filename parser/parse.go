@@ -31,7 +31,7 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 	"k8s.io/klog"
 )
 

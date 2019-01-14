@@ -20,10 +20,10 @@ package generators
 import (
 	"io"
 
-	"k8s.io/gengo/args"
-	"k8s.io/gengo/generator"
-	"k8s.io/gengo/namer"
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/args"
+	"github.com/liues1992/gengo/generator"
+	"github.com/liues1992/gengo/namer"
+	"github.com/liues1992/gengo/types"
 
 	"k8s.io/klog"
 )

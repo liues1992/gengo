@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/klog"
 
-	"k8s.io/gengo/namer"
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/namer"
+	"github.com/liues1992/gengo/types"
 )
 
 func NewImportTracker(typesToAdd ...*types.Type) namer.ImportTracker {

@@ -17,7 +17,7 @@ limitations under the License.
 package generator
 
 import (
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 // DefaultPackage contains a default implementation of Package.

@@ -19,7 +19,7 @@ package namer
 import (
 	"sort"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 // ImportTracker may be passed to a namer.RawNamer, to track the imports needed

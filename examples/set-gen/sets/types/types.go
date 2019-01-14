@@ -16,10 +16,10 @@ limitations under the License.
 
 // Package types just provides input types to the set generator. It also
 // contains a "go generate" block.
-// (You must first `go install k8s.io/gengo/examples/set-gen`)
+// (You must first `go install github.com/liues1992/gengo/examples/set-gen`)
 package types
 
-//go:generate set-gen -i k8s.io/gengo/examples/set-gen/sets/types -o k8s.io/gengo/examples/set-gen/sets
+//go:generate set-gen -i github.com/liues1992/gengo/examples/set-gen/sets/types -o github.com/liues1992/gengo/examples/set-gen/sets
 
 type ReferenceSetTypes struct {
 	// These types all cause files to be generated

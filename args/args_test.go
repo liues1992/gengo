@@ -19,7 +19,7 @@ package args
 import (
 	"testing"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 func TestInputIncludes(t *testing.T) {

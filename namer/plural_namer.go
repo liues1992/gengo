@@ -19,7 +19,7 @@ package namer
 import (
 	"strings"
 
-	"k8s.io/gengo/types"
+	"github.com/liues1992/gengo/types"
 )
 
 var consonants = "bcdfghjklmnpqrsttvwxyz"
