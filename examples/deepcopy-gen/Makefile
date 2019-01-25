@@ -14,3 +14,7 @@ test:
 	    false; \
 	fi
 
+dev:
+	@go build -o /tmp/$(TOOL)
+	@PKGS=$$(go list ./output_tests/wholepkg/...  | paste -sd' ' -); \
+    	/tmp/$(TOOL)  -i $$(echo $$PKGS | sed 's/ /,/g') -O zz_generated
